@@ -15,3 +15,4 @@ letras = 0
 for letra in texto:
   letras += 1 
   print(letras)
+  print(letras)
