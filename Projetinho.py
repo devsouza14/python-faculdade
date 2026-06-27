@@ -22,8 +22,18 @@ class carro:
     pass 
 carro1 = carro('Gm','Celta','Branco', 'Flex', '2007')
 carro2 = carro('Volkswagen', 'Gol', 'Prata', 'Flex', '2015')
-carro2.Alugado()
-carro1.Devolvido()
-carro2.infoDoVeiculo()
+
+opcao1 = carro1
+opcao2 = carro2
+
+selecaoDeVeiculo = input("Selecione o veiculo: ")
+if selecaoDeVeiculo == opcao1:
+            print(carro1.infoDoVeiculo())
+else:
+            print(carro2.infoDoVeiculo())
+
+#carro2.Alugado()
+#carro1.Devolvido()
+#carro2.infoDoVeiculo()
 
       
